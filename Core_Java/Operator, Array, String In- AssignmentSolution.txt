@@ -1,0 +1,34 @@
+Ans1:There are classified into 6 types:
+a) Arithmetic Operators
+b) Conditional
+c) Logical 
+d) Assignment 
+e) Unary
+f) Bitwise
+
+Ans2: Increment Operator (++): Increases the operand's value by one. 
+Decrement Operator (--): Decreases the operand's value by one.
+
+Ans3: Conditional Operator used to check the condition and gave the result on basis of of both condition.
+eg -  &&, ||
+
+Ans4: Ternary, Unary, Binary.
+
+Ans5: Contional statements allow you to control the flow of your code based on certain conditions or criteria. They are used to make decisions and execute different code blocks depending on whether a condition is true or false.
+Types: If, else, else-if.
+
+Ans6: If(6==7) 
+        {...}
+      else
+        {..}
+
+Ans7: For loop, while, do-while loop.
+
+Ans8: Array is used to store same type of collection of data. Indexing is there for every element in array, Fixed in size.
+
+Ans9: int[] numbers = {10, 20, 30, 40, 50};
+
+Ans10: StringBuffer: It is synchronised and thread safe and performance is slow compare to string builder
+                     Best for multithreaded enviroment where thread saftey is required.
+       StringBuilder: It is not synchronise and thread safe and faster in performance 
+		      Best where thread safety is not required.
