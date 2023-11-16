@@ -1,0 +1,57 @@
+﻿Exception, Imports and Modifiers
+
+
+Ans1. Exception in Java: An exception is an event that disrupts the normal flow of a program during its execution.
+Ans2. Types of Exceptions in Java:
+* Checked Exceptions (compile-time checked): e.g., IOException.
+* Unchecked Exceptions (runtime): e.g., NullPointerException.
+* Errors: Irrecoverable issues, e.g., OutOfMemoryError.
+
+
+Ans3.Exception Handling in Java:
+* Use try-catch blocks to handle exceptions.
+* The "finally" block ensures code execution whether an exception occurs or not.
+
+
+Ans4.Important Methods in Exception Class:
+* getMessage(): Returns the error message.
+* toString(): Returns a string representation.
+* printStackTrace(): Prints the stack trace.
+
+
+Ans5. Runtime Exception:
+* Runtime exceptions (unchecked) are not checked at compile time.
+* Include classes like NullPointerException.
+Ans6.Difference Between throw and throws:
+* throw: Used to explicitly throw an exception.
+* throws: Used in method signature to declare potential exceptions.
+Ans7.Difference Between Error and Exception:
+* Errors are unrecoverable (e.g., OutOfMemoryError).
+* Exceptions can be caught and handled.
+
+
+Ans8.Hierarchy of Exceptions in Java:
+* Throwable (Root)
+   * Error (Unrecoverable)
+   * Exception (Checked and Unchecked)
+
+
+
+
+
+
+Ans9. Packages in Java:
+* Packages are used to organize and categorize classes.
+* Prevent naming conflicts, provide access control.
+
+
+Ans10. Access Modifiers in Java:
+* Public: Accessible from anywhere.
+* Protected: Accessible within the same package or by subclasses.
+* Default (no modifier): Accessible within the same package.
+* Private: Accessible only within the declaring class.
+Ans11. Non-Access Modifiers in Java:
+* Static: Belongs to the class rather than instances.
+* Final: Cannot be overridden or modified.
+* Abstract: Must be implemented by subclasses.
+* Synchronized: Ensures only one thread accesses a method at a time.
