@@ -1,0 +1,35 @@
+﻿JVM, Variables Assignment
+
+
+
+
+
+
+Ans-1. JVM (Java Virtual Machine): It takes the compiled Java bytecode and translates it into machine code that can be understood and executed by the system. The JVM also manages memory, handles garbage collection, and provides other runtime services.
+JRE (Java Runtime Environment):The JRE provides the necessary runtime environment for Java applications. It includes the JVM, class libraries, and other files that support the execution of Java programs. End-users who want to run Java applications need to install the JRE.
+JDK (Java Development Kit): Developers use the JDK to write, compile, and debug Java applications. It contains the tools needed to create Java applications from scratch. The JDK includes the JRE, so if you have the JDK installed, you also have the ability to run Java.
+Ans-2. Bytecode: When you compile a Java program, it is not directly translated into machine-specific code. Instead, it is compiled into an intermediate form called bytecode. Then, JVM is a platform which interprets or just-in-time (JIT) compiles the bytecode into native machine code at runtime. JVM provides a consistent environment across different platforms, you can write your Java code once and run it on any system with the appropriate JVM installed. "Write Once, Run Anywhere" (WORA).
+Ans-3. Java programs are compiled into bytecode.
+* JVM (Java Virtual Machine) interprets or JIT compiles bytecode.
+* JVM provides a platform-independent runtime environment.
+* JVM translates bytecode to native machine code for execution.
+Ans-4: variable-length argument lists allow a method to accept a variable number of arguments.
+* It's represented by an ellipsis (...) in the method parameter.
+* Provides flexibility in the number of arguments passed to the method.
+* Commonly used in methods like printf, where the number of arguments can vary.
+Ans-5: Types of Variables in Java:
+* Local variables: declared within a method and have local scope.
+* Instance variables: part of an object's state, each instance has its own copy.
+* Class variables (static variables): shared among all instances of a class.
+
+
+Ans-6: Memory Areas Allocated by JVM:
+* Heap Memory: Stores objects and their data.
+* Stack Memory: Manages method calls and local variables.
+* Method Area (PermGen/Metaspace): Stores class-level data, static fields, and method information.
+* PC Register: Keeps track of the program counter.
+Ans-7: JIT (Just-In-Time Compilation):
+* JIT is a part of the Java Runtime Environment (JRE).
+* It compiles Java bytecode into native machine code at runtime.
+* Enhances the performance of Java applications by reducing interpretation overhead.
+* Translates frequently executed bytecode into native code for faster execution.
